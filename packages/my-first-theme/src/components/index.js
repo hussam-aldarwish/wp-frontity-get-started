@@ -29,11 +29,11 @@ const Root = ({ state, actions }) => {
         <HeaderContent>
           <h1>Frontity Workshop</h1>
           <p>Current URL: {state.router.link}</p>
-          <nav>
+          <Menu>
             <Link link="/">Home</Link>
             <Link link="/page/2">More posts</Link>
             <Link link="/about-us">About Us</Link>
-          </nav>
+          </Menu>
         </HeaderContent>
       </Header>
       <Main>
@@ -85,5 +85,16 @@ const Main = styled.main`
     color: #828282;
     font-size: 0.8em;
     margin-bottom: 1em;
+  }
+`;
+
+const Menu = styled.nav`
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  & > a {
+    margin-right: 1em;
+    color: steelblue;
+    text-decoration: none;
   }
 `;
