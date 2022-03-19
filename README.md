@@ -1,5 +1,7 @@
 # hello-frontity
 
+[![wakatime](https://wakatime.com/badge/github/hussam-aldarwish/wp-frontity-get-started.svg)](https://wakatime.com/badge/github/hussam-aldarwish/wp-frontity-get-started)
+
 This project was bootstrapped with [Frontity](https://frontity.org/).
 
 #### Table of Contents
