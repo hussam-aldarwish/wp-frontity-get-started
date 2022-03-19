@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { connect } from "frontity";
 import Link from "@frontity/components/link";
 
